@@ -1,21 +1,7 @@
 <template>
-  <view class="flex flex-col items-center justify-center">
-    <image
-      class="mb-50rpx mt-200rpx h-200rpx w-200rpx"
-      src="@/static/images/logo.png"
-      width="200rpx"
-      height="200rpx"
-    />
-    <view class="flex justify-center">
-      <text class="font-size-36rpx color-gray-700">
-        {{ title }}
-      </text>
-    </view>
-    <!-- #ifdef MP-WEIXIN -->
-    <!-- 隐私协议组件 -->
-    <agree-privacy v-model="showAgreePrivacy" :disable-check-privacy="false" @agree="handleAgree" />
-    <!-- #endif -->
-  </view>
+  <div class="zz">
+    2131231
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -47,3 +33,10 @@ function handleAgree() {
   console.log('同意隐私政策');
 }
 </script>
+<style scoped lang="scss">
+.zz{
+  width: 750rpx;
+  height: 200rpx;
+  background: red;
+}
+</style>
