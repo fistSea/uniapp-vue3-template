@@ -1,7 +1,7 @@
 <template>
-  <div class="zz">
-    2131231
-  </div>
+  <view class="zz">
+    213123111231
+  </view>
 </template>
 
 <script setup lang="ts">

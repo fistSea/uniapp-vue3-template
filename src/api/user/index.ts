@@ -17,3 +17,5 @@ export const getUserProfile = (params?: ProfileParams) => get<UserState>({ url: 
 export const login = (data: LoginParams) => post<LoginResult>({ url: URL.login, data });
 export const loginByCode = (data: LoginByCodeParams) => post<LoginByCodeResult>({ url: URL.loginByCode, data });
 export const logout = () => post<CommonResult>({ url: URL.logout });
+export const logout1 = () => post({ url: URL.logout });
+
